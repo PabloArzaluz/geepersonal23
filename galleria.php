@@ -8,27 +8,31 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Panthar HTML-5 Template</title>
     <!-- favicon -->
-    <link rel="icon" href="assets/img/favicon.png" sizes="20x20" type="image/png" />
+    <link rel="icon" href="img/favicon.png" sizes="20x20" type="image/png" />
     <!-- animate -->
-    <link rel="stylesheet" href="assets/css/animate.css" />
+    <link rel="stylesheet" href="css/animate.css" />
     <!-- bootstrap -->
-    <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
     <!-- magnific popup -->
-    <link rel="stylesheet" href="assets/css/magnific-popup.css" />
+    <link rel="stylesheet" href="css/magnific-popup.css" />
     <!-- owl carousel -->
-    <link rel="stylesheet" href="assets/css/owl.carousel.min.css" />
+    <link rel="stylesheet" href="css/owl.carousel.min.css" />
     <!-- Nice Select -->
-    <link rel="stylesheet" href="assets/css/nice-select.css">
+    <link rel="stylesheet" href="css/nice-select.css">
     <!-- Slick Slider -->
-    <link rel="stylesheet" href="assets/css/slick.css">
+    <link rel="stylesheet" href="css/slick.css">
     <!-- fontawesome -->
-    <link rel="stylesheet" href="assets/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="css/font-awesome.min.css" />
+    <!-- fontawesome v6-->
+    <link rel="stylesheet" href="fontawesome6/css/fontawesome.css" />
+    <link rel="stylesheet" href="fontawesome6/css/brands.css" />
+    <link rel="stylesheet" href="fontawesome6/css/solid.css" />
     <!-- iconmoon -->
-    <link rel="stylesheet" href="assets/css/icomoon.css">
+    <link rel="stylesheet" href="css/icomoon.css">
     <!-- Main Stylesheet -->
-    <link rel="stylesheet" href="assets/css/style.css" />
+    <link rel="stylesheet" href="css/style.css" />
     <!-- Responsive -->
-    <link rel="stylesheet" href="assets/css/responsive.css" />
+    <link rel="stylesheet" href="css/responsive.css" />
 </head>
 
 <body>
@@ -38,7 +42,7 @@
             <div class="container custom-container">
                 <div class="form-group-wrap">
                     <div class="form-group mb-0">
-                        <input type="text" name="s" class="form-control" placeholder="Search....">
+                        <input type="text" name="s" class="form-control" placeholder="Buscar....">
                     </div>
                     <button class="close-btn border-none submit-btn"><i class="fas fa-search"></i></button>
                 </div>
@@ -46,111 +50,7 @@
         </form>
     </div>
     <div class="header-style-01">
-        <!-- top bar area start -->
-        <div class="topbar-area">
-            <div class="container custom-container">
-                <div class="row">
-                    <div class="col-lg-12">
-                        <div class="topbar-inner">
-                            <div class="left-content">
-                                <div class="social-icon">
-                                    <ul>
-                                        <li><img src="./assets/icon/share-svgrepo-com.png" alt=""><a
-                                                href="#">FACEBOOK</a></li>
-                                        <li><a href="#">TWITTER</a></li>
-                                        <li><a href="#">INSTAGRAM</a></li>
-                                        <li><a href="#">YOUTUBE</a></li>
-                                    </ul>
-                                </div>
-                            </div>
-                            <div class="right-contnet">
-                                <ul class="info-items">
-                                    <li><a href="tel:000111555"><img src="./assets/icon/location.png" alt=""> Dewi Sri
-                                            Street. 2891, Denpasar, Bali</a>
-                                    </li>
-                                    <li><a href="mailto:info@gmail.com"><img src="./assets/icon/mail.png" alt="">
-                                            info@Political.com</a></li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- top bar areda end -->
-
-        <!-- main  navbar area start -->
-        <nav class="navbar navbar-area navbar-expand-lg navigation-style-01 innerpage-menu">
-            <div class="container custom-container">
-                <div class="responsive-menu">
-                    <div class="logo-wrapper">
-                        <a href="index.html" class="logo">
-                            <img src="assets/img/logo/logo.png" alt="" />
-                        </a>
-                        <a href="index.html" class="logo-white-display"> <img src="assets/img/logo/white-logo.png"
-                                alt="footer logo"></a>
-                    </div>
-                    <button class="navbar-toggler" type="button" data-toggle="collapse"
-                        data-target="#themebuzs_main_menu" aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
-                </div>
-                <div class="collapse navbar-collapse" id="themebuzs_main_menu">
-                    <ul class="navbar-nav nav-inner">
-                        <li class="menu-item-has-children current-menu-item">
-                            <a href="#">Home</a>
-                            <ul class="sub-menu">
-                                <li><a href="index.html"><span>Home 01</span></a></li>
-                                <li><a href="index-2.html"><span>Home 02</span></a></li>
-                            </ul>
-                        </li>
-                        <li><a href="about.html"><span>ABOUT US </span> </a></li>
-                        <li class="menu-item-has-children">
-                            <a href="#">PAGES</a>
-                            <ul class="sub-menu">
-                                <li><a href="case-study.html"><span>Case Study</span></a></li>
-                                <li><a href="case-single.html"><span>Case Single</span></a></li>
-                                <li><a href="team.html"><span>Team</span></a></li>
-                                <li><a href="team-details.html"><span>Team Single</span></a></li>
-                                <li><a href="faq.html"><span>FAQ</span></a></li>
-                                <li><a href="gallary.html"><span>Gallery</span></a></li>
-                                <li><a href="get-quote.html"><span>Quation</span></a></li>
-                                <li><a href="contact.html"><span>Contact</span></a></li>
-                            </ul>
-                        </li>
-                        <li class="menu-item-has-children">
-                            <a href="service.html"> SERVICES</a>
-                            <ul class="sub-menu">
-                                <li><a href="service.html"><span>Service</span></a></li>
-                                <li><a href="service-single.html"><span>Service Single</span></a></li>
-                            </ul>
-                        </li>
-                        <li class="menu-item-has-children">
-                            <a href="blog.html"> BLOG </a>
-                            <ul class="sub-menu">
-                                <li><a href="blog.html"><span>Blog</span></a></li>
-                                <li><a href="blog-classic.html"><span>Blog Classic</span></a></li>
-                                <li><a href="blog-single.html"><span>Blog Single</span></a></li>
-                            </ul>
-                        </li>
-                        <li>
-                            <a href="contact.html"> CONTACT US</a>
-                        </li>
-                    </ul>
-                </div>
-                <div class="nav-right-content">
-                    <div class="search-btn" id="search-popupp">
-                        <img src="./assets/icon/search.png" class="header-search" id="search" alt="">
-                    </div>
-                    <div class="btn-wrapp">
-                        <ul>
-                            <li>For <span>Emergency!</span></li>
-                            <li>+0 123 456 789</li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </nav>
+        <?php include("include/header.php"); ?>
         <!-- main navbar area end -->
     </div>
 
@@ -160,9 +60,9 @@
             <div class="breadcrumb-inner">
                 <h2 class="br-inner-title">GALLERY</h2>
                 <ul class="breadcrumb-menu">
-                    <li><img class="bullet-04" src="./assets/img/section-img/breadcrumb/home.svg" alt=""><a
-                            href="#">home</a></li>
-                    <li><img class="bullet-03" src="./assets/img/shapes/bullet.png" alt=""><a href="#">Gallery</a></li>
+                    <li><img class="bullet-04" src="img/section-img/breadcrumb/home.svg" alt=""><a
+                            href="index.php">INICIO</a></li>
+                    <li><img class="bullet-03" src="img/shapes/bullet.png" alt=""><a href="#">Galeria</a></li>
                 </ul>
             </div>
         </div>
@@ -173,10 +73,8 @@
         <div class="container">
             <div class="theme-heading-title team-page text-center">
                 <h3 class="title">
-                    See our gellery </h3>
-                <p>Integer dis ads se purus sollicitudin dapibus et vivamus pharetra sit integer dictum in dise natoque
-                    an mus quis in. Facilisis inceptos nec, potenti nostra aenean lacinia varius semper ant nullam nulla
-                    primis placerat facilisis.</p>
+                    un vistazo a nuestra galeria </h3>
+                <p></p>
             </div>
             <div class="row">
                 <div class="container text-center">
@@ -188,7 +86,7 @@
                                         <span class="style-animate-dot-wrap">
                                             <span class="style-animate-dot"></span>
                                         </span>
-                                        All </span>
+                                        Todo </span>
                                 </span>
                             </li>
                             <li data-filter=".corporate" class="">
@@ -248,7 +146,7 @@
         </div>
         <div class="gallery-item-wrap">
             <div class="item gallery-single-item-1 bodyguard event">
-                <div class="thumb" style="background-image: url('./assets/img/section-img/gallary/gallary-01.png');">
+                <div class="thumb" style="background-image: url('img/section-img/gallary/gallary-01.png');">
                 </div>
                 <a class="popup-btn image-popup-vertical-fit"
                     href="https://themebuzs.com/wp/panthar/wp-content/uploads/2022/01/high-angle-safety-team-work.png">
@@ -256,7 +154,7 @@
                 </a>
             </div>
             <div class="item gallery-single-item-2 bodyguard event">
-                <div class="thumb" style="background-image: url('./assets/img/section-img/gallary/gallary-02.png');">
+                <div class="thumb" style="background-image: url('img/section-img/gallary/gallary-02.png');">
                 </div>
                 <a class="popup-btn image-popup-vertical-fit"
                     href="https://themebuzs.com/wp/panthar/wp-content/uploads/2022/01/side-view-security-guards-specialist.png">
@@ -264,7 +162,7 @@
                 </a>
             </div>
             <div class="item gallery-single-item-3 bank corporate">
-                <div class="thumb" style="background-image: url('./assets/img/section-img/gallary/gallary-03.png');">
+                <div class="thumb" style="background-image: url('img/section-img/gallary/gallary-03.png');">
                 </div>
                 <a class="popup-btn image-popup-vertical-fit"
                     href="https://themebuzs.com/wp/panthar/wp-content/uploads/2022/01/police-officer-making-stop-gesture.png">
@@ -272,7 +170,7 @@
                 </a>
             </div>
             <div class="item gallery-single-item-4 bodyguard corporate">
-                <div class="thumb" style="background-image: url('./assets/img/section-img/gallary/gallary-04.png');">
+                <div class="thumb" style="background-image: url('img/section-img/gallary/gallary-04.png');">
                 </div>
                 <a class="popup-btn image-popup-vertical-fit"
                     href="https://themebuzs.com/wp/panthar/wp-content/uploads/2022/01/security-woman-stopping-photographers-1.png">
@@ -280,7 +178,7 @@
                 </a>
             </div>
             <div class="item gallery-single-item-5 bank office">
-                <div class="thumb" style="background-image: url('./assets/img/section-img/gallary/gallary-05.png');">
+                <div class="thumb" style="background-image: url('img/section-img/gallary/gallary-05.png');">
                 </div>
                 <a class="popup-btn image-popup-vertical-fit"
                     href="https://themebuzs.com/wp/panthar/wp-content/uploads/2022/01/cops-black-uniform-body-armor.png">
@@ -288,7 +186,7 @@
                 </a>
             </div>
             <div class="item gallery-single-item-6 bodyguard event office">
-                <div class="thumb" style="background-image: url('./assets/img/section-img/gallary/gallary-06.png');">
+                <div class="thumb" style="background-image: url('img/section-img/gallary/gallary-06.png');">
                 </div>
                 <a class="popup-btn image-popup-vertical-fit"
                     href="https://themebuzs.com/wp/panthar/wp-content/uploads/2022/01/serious-female-police-officer-is-posing-camera-against-black-background-with-red-blue.png">
@@ -296,7 +194,7 @@
                 </a>
             </div>
             <div class="item gallery-single-item-7 bodyguard corporate office">
-                <div class="thumb" style="background-image: url('./assets/img/section-img/gallary/gallary-07.png');">
+                <div class="thumb" style="background-image: url('img/section-img/gallary/gallary-07.png');">
                 </div>
                 <a class="popup-btn image-popup-vertical-fit"
                     href="https://themebuzs.com/wp/panthar/wp-content/uploads/2022/01/two-male-police-officers-uniform-sunglasses-standing-back-back-policemen-protect-law-cops-work-city-street-order-justice-control.png">
@@ -304,7 +202,7 @@
                 </a>
             </div>
             <div class="item gallery-single-item-8 bank bodyguard event">
-                <div class="thumb" style="background-image: url('./assets/img/section-img/gallary/gallary-08.png');">
+                <div class="thumb" style="background-image: url('img/section-img/gallary/gallary-08.png');">
                 </div>
                 <a class="popup-btn image-popup-vertical-fit"
                     href="https://themebuzs.com/wp/panthar/wp-content/uploads/2022/01/elegant-woman-medical-face-mask-passing-through-metal-detector-scanner-airport-terminal.png">
@@ -318,7 +216,27 @@
     <div class="gallary-area margin-bottom-120">
         <div class="container">
             <div class="theme-heading-title team-page text-center">
-                <h3 class="title">SEE OUR COMMERCIAL TVC</h3>
+                <h3 class="title">VIDEO</h3>
+                <p>Integer dis ads se purus sollicitudin dapibus et vivamus pharetra sit integer dictum in dise
+                    natoque
+                    an mus quis in. Facilisis inceptos nec, potenti nostra aenean lacinia varius semper ant nullam
+                    nulla
+                    primis placerat facilisis.</p>
+            </div>
+            <div class="video-bg">
+                <div class="hover">
+                    <a href="https://www.youtube.com/watch?v=AmDH8_bTRo8"
+                        class="video-play-btn-02 video-popup mfp-iframe"><i aria-hidden="true"
+                            class="fas fa-play"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- video area  -->
+    <div class="gallary-area margin-bottom-120">
+        <div class="container">
+            <div class="theme-heading-title team-page text-center">
+                <h3 class="title">VIDEO</h3>
                 <p>Integer dis ads se purus sollicitudin dapibus et vivamus pharetra sit integer dictum in dise
                     natoque
                     an mus quis in. Facilisis inceptos nec, potenti nostra aenean lacinia varius semper ant nullam
@@ -336,176 +254,59 @@
     </div>
 
     <!-- brand area  -->
-    <div class="brand-two margin-bottom-120">
+    <!--<div class="brand-two margin-bottom-120">
         <div class="container">
             <div class="brand-area">
                 <div class="brand-active">
                     <div class="brand-item-single">
                         <div class="brand-items">
-                            <img src="./assets/img/section-img/brand/brand-01.png" alt="">
+                            <img src="img/section-img/brand/brand-01.png" alt="">
                         </div>
                     </div>
                     <div class="brand-item-single">
                         <div class="brand-items">
-                            <img src="./assets/img/section-img/brand/brand-02.png" alt="">
+                            <img src="img/section-img/brand/brand-02.png" alt="">
                         </div>
                     </div>
                     <div class="brand-item-single">
                         <div class="brand-items">
-                            <img src="./assets/img/section-img/brand/brand-03.png" alt="">
+                            <img src="img/section-img/brand/brand-03.png" alt="">
                         </div>
                     </div>
                     <div class="brand-item-single">
                         <div class="brand-items">
-                            <img src="./assets/img/section-img/brand/brand-04.png" alt="">
+                            <img src="img/section-img/brand/brand-04.png" alt="">
                         </div>
                     </div>
                     <div class="brand-item-single">
                         <div class="brand-items">
-                            <img src="./assets/img/section-img/brand/brand-05.png" alt="">
+                            <img src="img/section-img/brand/brand-05.png" alt="">
                         </div>
                     </div>
                     <div class="brand-item-single">
                         <div class="brand-items">
-                            <img src="./assets/img/section-img/brand/brand-01.png" alt="">
+                            <img src="img/section-img/brand/brand-01.png" alt="">
                         </div>
                     </div>
                     <div class="brand-item-single">
                         <div class="brand-items">
-                            <img src="./assets/img/section-img/brand/brand-02.png" alt="">
+                            <img src="img/section-img/brand/brand-02.png" alt="">
                         </div>
                     </div>
                     <div class="brand-item-single">
                         <div class="brand-items">
-                            <img src="./assets/img/section-img/brand/brand-03.png" alt="">
+                            <img src="img/section-img/brand/brand-03.png" alt="">
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
+    </div>-->
     <!-- brand area end -->
 
     <!-- footer area start -->
     <footer class="footer-area">
-        <div class="container">
-            <div class="footer-top padding-top-85 padding-bottom-50">
-                <div class="subscribe-wrapper">
-                    <div class="row align-items-center">
-                        <div class="col-lg-4">
-                            <a href="index.html" class="footer-logo"> <img src="assets/img/logo/white-logo.png"
-                                    alt="footer logo"></a>
-                        </div>
-                        <div class="col-lg-8">
-                            <div class="subscribe-box">
-                                <form action="#">
-                                    <input type="text" placeholder="enter your email address">
-                                    <button class="btn-panthar btn-border-base footer-subscribe-btn">
-                                        <span class="top_left"></span>
-                                        <span class="top_right"></span>
-                                        GET ALERT <i class="far fa-paper-plane"></i>
-                                        <span class="bottom_left"></span>
-                                        <span class="bottom_right"></span>
-                                    </button>
-                                </form>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-lg-3 col-md-6 col-sm-6">
-                        <div id="panthar_about_me_widget-2" class="widget footer-widget panthar-widget-about-me">
-                            <div class="footer-widget widget">
-                                <div class="about_me_widget style-01">
-                                    <h4 class="widget-headline">about us</h4>
-                                    <p> Our team includes doormen, bodyguards, and parking lot patrol officers more
-                                        than
-                                        15 years of combined our experience.</p>
-                                    <ul class="widget-list-items">
-                                        <li>
-                                            <div class="icon">
-                                                <a href="#">
-                                                    <i class="fab fa-instagram"></i>
-                                                </a>
-                                            </div>
-                                        </li>
-                                        <li>
-                                            <div class="icon">
-                                                <a href="#">
-                                                    <i class="fab fa-twitter"></i>
-                                                </a>
-                                            </div>
-                                        </li>
-                                        <li>
-                                            <div class="icon">
-                                                <a href="#">
-                                                    <i class="fab fa-pinterest-p"></i>
-                                                </a>
-                                            </div>
-                                        </li>
-                                        <li>
-                                            <div class="icon">
-                                                <a href="#">
-                                                    <i class="fab fa-linkedin-in"></i>
-                                                </a>
-                                            </div>
-                                        </li>
-                                    </ul>
-                                </div>
-                            </div>
-
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-md-6 col-sm-6">
-                        <div class="footer-widget widget widget_nav_menu">
-                            <h4 class="widget-headline">OUR COMPANY</h4>
-                            <ul>
-                                <li><a href="index.html">Home</a></li>
-                                <li><a href="about.html">About Us</a></li>
-                                <li><a href="service.html">Service</a></li>
-                                <li><a href="about.html">Our Campaign</a></li>
-                                <li><a href="team.html">Our Volunteer</a></li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-md-6 col-sm-6">
-                        <div class="footer-widget widget widget_nav_menu">
-                            <h4 class="widget-headline">HELP</h4>
-                            <ul>
-                                <li><a href="service.html">Event Security</a></li>
-                                <li><a href="service.html">Bank Security</a></li>
-                                <li><a href="service.html">Office Security</a></li>
-                                <li><a href="service.html">Office Security</a></li>
-                                <li><a href="service.html">Vehicle Escort</a></li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-md-6 col-sm-6">
-                        <div class="footer-widget widget widget_nav_menu">
-                            <h4 class="widget-headline">SERVICES</h4>
-                            <ul>
-                                <li><a href="service.html">Knowledge base</a></li>
-                                <li><a href="service.html">Security resources</a></li>
-                                <li><a href="faq.html">Terms & Conditions</a></li>
-                                <li><a href="gallary.html">Gallery</a></li>
-                                <li><a href="contact.html">Contact Us</a></li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="copyright-area">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-12">
-                        <div class="copyright-area-inner">
-                            <p>Copyright 2021 Panthar. Designed By <span>themebuzs</span> </p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
+    <?php include("include/footer.php"); ?>
     </footer>
     <!-- footer area end -->
     <!-- back to top area start -->
@@ -513,29 +314,29 @@
         <span class="back-top"><i class="fa fa-angle-up"></i></span>
     </div>
     <!-- back to top area end -->
-    <script src="assets/js/jquery-3.6.0.min.js"></script>
+    <script src="js/jquery-3.6.0.min.js"></script>
     <!-- bootstrap -->
-    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
     <!-- magnific popup -->
-    <script src="assets/js/jquery.magnific-popup.js"></script>
+    <script src="js/jquery.magnific-popup.js"></script>
     <!-- wow -->
-    <script src="assets/js/wow.min.js"></script>
+    <script src="js/wow.min.js"></script>
     <!-- owl carousel -->
-    <script src="assets/js/owl.carousel.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
     <!-- Nice Select -->
-    <script src="assets/js/jquery.nice-select.js"></script>
+    <script src="js/jquery.nice-select.js"></script>
     <!-- Slick Slider -->
-    <script src="assets/js/slick.min.js"></script>
+    <script src="js/slick.min.js"></script>
     <!-- isotop -->
-    <script src="assets/js/isotope.pkgd.min.js"></script>
+    <script src="js/isotope.pkgd.min.js"></script>
     <!-- isotop image load -->
-    <script src="assets/js/imagesloaded.pkgd.min.js"></script>
+    <script src="js/imagesloaded.pkgd.min.js"></script>
     <!-- isotop image load -->
-    <script src="assets/js/jQuery.Progressbar.js"></script>
+    <script src="js/jQuery.Progressbar.js"></script>
     <!-- countdown -->
-    <script src="assets/js/jquery.countdown.min.js"></script>
+    <script src="js/jquery.countdown.min.js"></script>
     <!-- main js -->
-    <script src="assets/js/main.js"></script>
+    <script src="js/main.js"></script>
 </body>
 
 </html>

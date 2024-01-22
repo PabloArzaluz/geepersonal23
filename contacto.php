@@ -23,6 +23,10 @@
     <link rel="stylesheet" href="css/slick.css">
     <!-- fontawesome -->
     <link rel="stylesheet" href="css/font-awesome.min.css" />
+    <!-- fontawesome v6-->
+    <link rel="stylesheet" href="fontawesome6/css/fontawesome.css" />
+    <link rel="stylesheet" href="fontawesome6/css/brands.css" />
+    <link rel="stylesheet" href="fontawesome6/css/solid.css" />
     <!-- iconmoon -->
     <link rel="stylesheet" href="css/icomoon.css">
     <!-- Main Stylesheet -->
