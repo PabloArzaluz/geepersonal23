@@ -23,6 +23,10 @@
     <link rel="stylesheet" href="css/slick.css">
     <!-- fontawesome -->
     <link rel="stylesheet" href="css/font-awesome.min.css" />
+    <!-- fontawesome v6-->
+    <link rel="stylesheet" href="fontawesome6/css/fontawesome.css" />
+    <link rel="stylesheet" href="fontawesome6/css/brands.css" />
+    <link rel="stylesheet" href="fontawesome6/css/solid.css" />
     <!-- iconmoon -->
     <link rel="stylesheet" href="css/icomoon.css">
     <!-- Main Stylesheet -->
@@ -46,110 +50,7 @@
         </form>
     </div>
     <div class="header-style-02">
-        <!-- top bar area start -->
-        <div class="topbar-area">
-            <div class="container custom-container">
-                <div class="row">
-                    <div class="col-lg-12">
-                        <div class="topbar-inner">
-                            <div class="left-content">
-                                <div class="social-icon">
-                                    <ul>
-                                        <li><img src="icon/share-svgrepo-com.png" alt=""><a
-                                                href="#">FACEBOOK</a></li>
-                                        <li><a href="#">TWITTER</a></li>
-                                        <li><a href="#">INSTAGRAM</a></li>
-                                        <li><a href="#">YOUTUBE</a></li>
-                                    </ul>
-                                </div>
-                            </div>
-                            <div class="right-contnet">
-                                <ul class="info-items">
-                                    <li><a href="#"><img src="icon/location.png" alt=""> Leon, Guanajuato</a>
-                                    </li>
-                                    <li><a href="mailto:info@gmail.com"><img src="./assets/icon/mail.png" alt="">
-                                            info@geepersonal23.com</a></li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- top bar areda end -->
-
-        <!-- main  navbar area start -->
-        <nav class="navbar navbar-area navbar-expand-lg navigation-style-01 menu-01 navigation-before">
-            <div class="container custom-container">
-                <div class="responsive-menu">
-                    <div class="logo-wrapper">
-                        <a href="index.html" class="logo">
-                            <img src="img/gee_logo.png" alt="" />
-                        </a>
-                        <a href="index.html" class="logo-white-display"> <img src="img/gee_logo-white.png"
-                                alt="header_logo"></a>
-                    </div>
-                    <button class="navbar-toggler" type="button" data-toggle="collapse"
-                        data-target="#themebuzs_main_menu" aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
-                </div>
-                <div class="collapse navbar-collapse" id="themebuzs_main_menu">
-                    <ul class="navbar-nav">
-                        <li class="menu-item-has-children current-menu-item">
-                            <a href="#">Inicio</a>
-                            <ul class="sub-menu">
-                                <li><a href="index.html"><span>Home 01</span></a></li>
-                                <li><a href="index-2.html"><span>Home 02</span></a></li>
-                            </ul>
-                        </li>
-                        <li><a href="about.html"><span>Sobre GEE </span> </a></li>
-                        <li class="menu-item-has-children">
-                            <a href="#">PAGES</a>
-                            <ul class="sub-menu">
-                                <li><a href="case-study.html"><span>Case Study</span></a></li>
-                                <li><a href="case-single.html"><span>Case Single</span></a></li>
-                                <li><a href="team.html"><span>Team</span></a></li>
-                                <li><a href="team-details.html"><span>Team Single</span></a></li>
-                                <li><a href="faq.html"><span>FAQ</span></a></li>
-                                <li><a href="gallary.html"><span>Gallery</span></a></li>
-                                <li><a href="get-quote.html"><span>Quation</span></a></li>
-                                <li><a href="contact.html"><span>Contacto</span></a></li>
-                            </ul>
-                        </li>
-                        <li class="menu-item-has-children">
-                            <a href="service.html"> SERVICES</a>
-                            <ul class="sub-menu">
-                                <li><a href="service.html"><span>Service</span></a></li>
-                                <li><a href="service-single.html"><span>Service Single</span></a></li>
-                            </ul>
-                        </li>
-                        <li class="menu-item-has-children">
-                            <a href="blog.html"> BLOG </a>
-                            <ul class="sub-menu">
-                                <li><a href="blog.html"><span>Blog</span></a></li>
-                                <li><a href="blog-classic.html"><span>Blog Classic</span></a></li>
-                                <li><a href="blog-single.html"><span>Blog Single</span></a></li>
-                            </ul>
-                        </li>
-                        <li>
-                            <a href="contact.html"> CONTACT</a>
-                        </li>
-                    </ul>
-                </div>
-                <div class="nav-right-content">
-                    <div class="search-btn" id="search-popupp">
-                        <img src="icon/search.png" class="header-search" id="search" alt="">
-                    </div>
-                    <div class="btn-wrapp">
-                        <ul>
-                            <li>For <span>Emergency!</span></li>
-                            <li><a href="tel:000111555">+0 123 456 789</a> </li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </nav>
+        <?php include("include/header.php"); ?>
         <!-- main navbar area end -->
     </div>
 
@@ -175,7 +76,7 @@
                                         <span class="top_left"></span>
                                         <span class="top_right"></span>
                                         <span>
-                                            Contacto</span>
+                                            CONTACTO</span>
                                         <span class="bottom_left"></span>
                                         <span class="bottom_right"></span>
                                     </a>
@@ -194,17 +95,14 @@
                         <div class="col-lg-7">
                             <div class="baner-content">
                                 <h2 class="baner-title">CAPACITACIÓN</h2>
-                                <h4 class="baner-subtitle">For Your Personal Safety</h4>
-                                <p>American Panthar Security is looking to expand our private security company in
-                                    Colorado. This
-                                    means we need qualified professionals to join our team. We are looking
-                                    for former police officers and ex-military members.</p>
+                                <h4 class="baner-subtitle">para tu personal</h4>
+                                <p>Te capacitamos o a tu personal de seguridad para tener la mejor respuesta en caso de algun evento.</p>
                                 <div class="btn-wrap d-inline-block">
                                     <a class="btn btn-border-base" href="contact.html" tabindex="0">
                                         <span class="top_left"></span>
                                         <span class="top_right"></span>
                                         <span>
-                                            CONTACT US </span>
+                                            CONTACTO </span>
                                         <span class="bottom_left"></span>
                                         <span class="bottom_right"></span>
                                     </a>
@@ -213,7 +111,7 @@
                         </div>
                         <div class="col-lg-5">
                             <div class="baner-img">
-                                <img src="img/section-img/baner/Artboard-–-1.webp" alt="">
+                                <img src="img/slider-2.jpg" alt="">
                             </div>
                         </div>
                     </div>
@@ -223,17 +121,14 @@
                         <div class="col-lg-7">
                             <div class="baner-content">
                                 <h2 class="baner-title">CERTIFICACIÓN</h2>
-                                <h4 class="baner-subtitle">For Your Personal Safety</h4>
-                                <p>American Panthar Security is looking to expand our private security company in
-                                    Colorado. This
-                                    means we need qualified professionals to join our team. We are looking
-                                    for former police officers and ex-military members.</p>
+                                <h4 class="baner-subtitle">Certificado de Curso</h4>
+                                <p>Ofrecemos tambien certificaciones en distintas tecnicas las cuales avalaran al personal como apto para brindar proteccion.</p>
                                 <div class="btn-wrap d-inline-block">
-                                    <a class="btn btn-border-base" href="contact.html">
+                                    <a class="btn btn-border-base" href="contacto.php">
                                         <span class="top_left"></span>
                                         <span class="top_right"></span>
                                         <span>
-                                            CONTACT US </span>
+                                            CONTACTO </span>
                                         <span class="bottom_left"></span>
                                         <span class="bottom_right"></span>
                                     </a>
@@ -242,7 +137,7 @@
                         </div>
                         <div class="col-lg-5">
                             <div class="baner-img">
-                                <img src="img/section-img/baner/banar-img-01.png" alt="">
+                                <img src="img/slider-3.jpg" alt="">
                             </div>
                         </div>
                     </div>
@@ -253,13 +148,13 @@
                             <div class="baner-content">
                                 <h2 class="baner-title">PROTECCIÓN</h2>
                                 <h4 class="baner-subtitle">para tu seguridad personal</h4>
-                                <p>Tu seguridad y tranquilidad es lo mas importante, en GEE contamos con personal altamente capacitado y certificado para tu tranquilidad y seguridad.</p>
+                                <p>Pregunta por nuestros servicios de proteccion, los cuales podemos brindarte de manera temporal o constante.</p>
                                 <div class="btn-wrap d-inline-block">
-                                    <a class="btn btn-border-base" href="#">
+                                    <a class="btn btn-border-base" href="contacto.php">
                                         <span class="top_left"></span>
                                         <span class="top_right"></span>
                                         <span>
-                                            CONTACT US </span>
+                                            CONTACTO </span>
                                         <span class="bottom_left"></span>
                                         <span class="bottom_right"></span>
                                     </a>
@@ -268,7 +163,7 @@
                         </div>
                         <div class="col-lg-5">
                             <div class="baner-img">
-                                <img src="img/section-img/baner/Artboard-–-1.webp" alt="">
+                                <img src="img/slider-4.jpg" alt="">
                             </div>
                         </div>
                     </div>
@@ -285,17 +180,16 @@
                 <div class="row align-items-center">
                     <div class="col-lg-6">
                         <div class="theme-heading-title">
-                            <h4 class="subtitle">OUR SERVICES <img class="bullet" src="img/shapes/bullet.png"
+                            <h4 class="subtitle">NUESTROS SERVICIOS <img class="bullet" src="img/shapes/bullet.png"
                                     alt=""> </h4>
-                            <h2 class="title">Smart Security sERVICE FOR <br>
-                                YOUR LIVE SAFETY</h2>
+                            <h2 class="title">SEGURIDAD INTELIGENTE PARA<br>
+                                LA PROTECCION DE TU VIDA</h2>
                         </div>
                     </div>
                     <div class="col-lg-6">
                         <div class="service-wrapperr">
-                            <p>Panthar has successfully completed 13 years in private security industry. Due to its
-                                professionalism, hard work and high ethical standard, Orion has been able to attain</p>
-                            <a class="btn_01" href="service.html">CHECK ALL SERVICES</a>
+                            <p>GEE ha impartido mas de 50 certificaciones a distinto personal, gracias a su profesionalismo, conocimiento y experiencia es la mejor opcion para ti.</p>
+                            <!--<a class="btn_01" href="service.html">CHECK ALL SERVICES</a>-->
                         </div>
                     </div>
                 </div>
@@ -307,7 +201,7 @@
                     <div class="service-single-item-list">
                         <div class="service-single-item-2">
                             <div class="thumb">
-                                <img src="img/section-img/service/service-01.png" alt="">
+                                <img src="img/secciones/eventos.jpg" alt="">
                                 <div class="animate-icon">
                                     <svg xmlns="http://www.w3.org/2000/svg" width="43.888" height="43.888"
                                         viewBox="0 0 43.888 43.888">
@@ -373,8 +267,7 @@
                                     </svg> </div>
                             </div>
                             <div class="details">
-                                <h4 class="title"><a href="service.html">Event
-                                        Security </a></h4>
+                                <h4 class="title"><a href="service.html">Capacitaciones</a></h4>
                                 <a class="read-btn" href="service.html"><i class="fa fa-arrow-right"></i></a>
                             </div>
                         </div>
@@ -384,7 +277,7 @@
                     <div class="service-single-item-list">
                         <div class="service-single-item-2">
                             <div class="thumb">
-                                <img src="img/section-img/service/main/service-02.png" alt="">
+                                <img src="img/secciones/servicio-guardaespaldas.jpg" alt="">
                                 <div class="animate-icon">
                                     <svg xmlns="http://www.w3.org/2000/svg" width="43.888" height="43.888"
                                         viewBox="0 0 43.888 43.888">
@@ -452,8 +345,7 @@
                                     </svg> </div>
                             </div>
                             <div class="details">
-                                <h4 class="title"><a href="service.html">Bodyguard
-                                        Security </a></h4>
+                                <h4 class="title"><a href="service.html">Servicio de Guardaespaldas </a></h4>
                                 <a class="read-btn" href="#"><i class="fa fa-arrow-right"></i></a>
                             </div>
                         </div>
@@ -463,7 +355,7 @@
                     <div class="service-single-item-list">
                         <div class="service-single-item-2">
                             <div class="thumb">
-                                <img src="img/section-img/service/main/service-03.png" alt="">
+                                <img src="img/secciones/servicio-certificaciones.jpg" alt="">
                                 <div class="animate-icon">
                                     <svg xmlns="http://www.w3.org/2000/svg" width="43.888" height="43.888"
                                         viewBox="0 0 43.888 43.888">
@@ -530,8 +422,7 @@
                                     </svg> </div>
                             </div>
                             <div class="details">
-                                <h4 class="title"><a href="service.html">Bank
-                                        Security</a></h4>
+                                <h4 class="title"><a href="service.html">Certificaciones</a></h4>
                                 <a class="read-btn" href="service.html"><i class="fa fa-arrow-right"></i></a>
                             </div>
                         </div>
@@ -541,7 +432,7 @@
                     <div class="service-single-item-list">
                         <div class="service-single-item-2">
                             <div class="thumb">
-                                <img src="img/section-img/service/main/service-04.png" alt="">
+                                <img src="img/secciones/servicio-entrenamientos.jpg" alt="">
                                 <div class="animate-icon">
                                     <svg xmlns="http://www.w3.org/2000/svg" width="43.888" height="43.888"
                                         viewBox="0 0 43.888 43.888">
@@ -608,8 +499,7 @@
                                     </svg> </div>
                             </div>
                             <div class="details">
-                                <h4 class="title"><a href="service.html">Office
-                                        Security </a></h4>
+                                <h4 class="title"><a href="service.html">Entrenamientos</a></h4>
                                 <a class="read-btn" href="service.html"><i class="fa fa-arrow-right"></i></a>
                             </div>
                         </div>
@@ -626,14 +516,13 @@
             <div class="row align-items-center get-flex-reverse">
                 <div class="col-md-12">
                     <div class="quote-message">
-                        <p>As the leader in home security, we can help you customize <br>
-                            home security system to meet your safety needs. </p>
+                        <p>Como lideres en servicio de seguridad personal, <br>podemos ayudarte a personalizar tu sistema de seguridad para satisfacer tus necesidades. </p>
                         <div class="btn-wrap d-inline-block">
-                            <a class="btn btn-border-base" href="get-quote.html">
+                            <a class="btn btn-border-base" href="contacto.php">
                                 <span class="top_left"></span>
                                 <span class="top_right"></span>
                                 <span>
-                                    GET A QUOTE</span>
+                                    CONTACTO</span>
                                 <span class="bottom_left"></span>
                                 <span class="bottom_right"></span>
                             </a>
@@ -646,49 +535,39 @@
                     <span class="style-animate-dot-wrap">
                         <span class="style-animate-dot dot-zero"></span>
                     </span>
-                    <p class="d-inline-block">Compassion</p>
+                    <p class="d-inline-block">Disciplina</p>
                 </div>
                 <div class="single-core-value single-core-01">
                     <span class="style-animate-dot-wrap">
                         <span class="style-animate-dot dot-zero"></span>
                     </span>
-                    <p class="d-inline-block">Commitment</p>
+                    <p class="d-inline-block">Honor</p>
                 </div>
                 <div class="single-core-value single-core-01">
                     <span class="style-animate-dot-wrap">
                         <span class="style-animate-dot"></span>
                     </span>
-                    <p class="d-inline-block">Excellence</p>
+                    <p class="d-inline-block">Lealtad</p>
+                </div>
+                
+                <div class="single-core-value single-core-01">
+                    <span class="style-animate-dot-wrap">
+                        <span class="style-animate-dot"></span>
+                    </span>
+                    <p class="d-inline-block">Etica</p>
                 </div>
                 <div class="single-core-value single-core-01">
                     <span class="style-animate-dot-wrap">
                         <span class="style-animate-dot"></span>
                     </span>
-                    <p class="d-inline-block">Team Work</p>
+                    <p class="d-inline-block">Excelencia</p>
                 </div>
+                
                 <div class="single-core-value single-core-01">
                     <span class="style-animate-dot-wrap">
                         <span class="style-animate-dot"></span>
                     </span>
-                    <p class="d-inline-block">Value</p>
-                </div>
-                <div class="single-core-value single-core-01">
-                    <span class="style-animate-dot-wrap">
-                        <span class="style-animate-dot"></span>
-                    </span>
-                    <p class="d-inline-block">Ethnicity</p>
-                </div>
-                <div class="single-core-value single-core-01">
-                    <span class="style-animate-dot-wrap">
-                        <span class="style-animate-dot"></span>
-                    </span>
-                    <p class="d-inline-block">Excellence</p>
-                </div>
-                <div class="single-core-value single-core-01">
-                    <span class="style-animate-dot-wrap">
-                        <span class="style-animate-dot"></span>
-                    </span>
-                    <p class="d-inline-block">Commitment</p>
+                    <p class="d-inline-block">Compromiso</p>
                 </div>
             </div>
         </div>
@@ -701,16 +580,13 @@
             <div class="row">
                 <div class="col-lg-6">
                     <div class="theme-heading-title">
-                        <div class="subtitle"> WHY CHOOSE US <img class="bullet" src="img/shapes/bullet.png"
+                        <div class="subtitle"> ¿PORQUE ESCOGERNOS? <img class="bullet" src="img/shapes/bullet.png"
                                 alt="">
                         </div>
-                        <h3 class="title title-decrease">WE'RE QUALIFIED &amp; PROFESSIONAL </h3>
+                        <h3 class="title title-decrease">SOMOS CALIFICADOS Y PROFESIONALES </h3>
                         <h6 class="smalltitle">
-                            We believe in the following core values </h6>
-                        <p class="why-para">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eius tempor
-                            incididunt ut
-                            labore et dolore magna aliqua. Ut enim adiqua minim veniam quis nostrud exercitation ullamco
-                            laboris sed</p>
+                            Contamos con fuertes valores fundamentales que nos dirigen. </h6>
+                        <p class="why-para">Tenemos multiples servicios para cada una de tus necesidades de seguridad personal.</p>
 
                     </div>
                     <div class="content-wrapper">
@@ -718,17 +594,17 @@
                             <ul>
                                 <li>
                                     <span class="style-dot "></span> <span class="style-bar "></span>
-                                    <div class="content d-inline-block">Security Consulting </div>
+                                    <div class="content d-inline-block">Consultoria de Seguridad </div>
                                     <span class="detail-content"> </span>
                                 </li>
                                 <li>
                                     <span class="style-dot "></span> <span class="style-bar "></span>
-                                    <div class="content d-inline-block">Private Security </div>
+                                    <div class="content d-inline-block">Seguridad Privada </div>
                                     <span class="detail-content"> </span>
                                 </li>
                                 <li>
                                     <span class="style-dot "></span> <span class="style-bar "></span>
-                                    <div class="content d-inline-block">Close Protections </div>
+                                    <div class="content d-inline-block">Proteccion Cercana </div>
                                     <span class="detail-content"> </span>
                                 </li>
 
@@ -738,17 +614,17 @@
                             <ul>
                                 <li>
                                     <span class="style-dot "></span> <span class="style-bar "></span>
-                                    <div class="content d-inline-block">Security Consulting </div>
+                                    <div class="content d-inline-block">Capacitaciones </div>
                                     <span class="detail-content"> </span>
                                 </li>
                                 <li>
                                     <span class="style-dot "></span> <span class="style-bar "></span>
-                                    <div class="content d-inline-block">Private Security </div>
+                                    <div class="content d-inline-block">Certificaciones </div>
                                     <span class="detail-content"> </span>
                                 </li>
                                 <li>
                                     <span class="style-dot "></span> <span class="style-bar "></span>
-                                    <div class="content d-inline-block">Close Protections </div>
+                                    <div class="content d-inline-block">Entrenamientos </div>
                                     <span class="detail-content"> </span>
                                 </li>
 
@@ -763,7 +639,7 @@
                             <span class="animate-2"></span>
                             <span class="animate-3"></span>
                             <span class="animate-4"></span>
-                            <img src="img/section-img/choose/ann-fossa-5TFq8gMJWgg-unsplash.png" alt="thumb">
+                            <img src="img/secciones/porque-nosotros-1.jpg" alt="thumb">
                         </div>
                     </div>
                 </div>
@@ -779,7 +655,7 @@
                 <div class="col-lg-12 col-xl-4 text-center">
                     <div class="video-button">
                         <div class="hover">
-                            <a href="https://www.youtube.com/watch?v=AmDH8_bTRo8"
+                            <a href="https://www.youtube.com/"
                                 class="video-play-btn-02 video-popup mfp-iframe"><i aria-hidden="true"
                                     class="fas fa-play"></i></a>
                         </div>
@@ -789,20 +665,17 @@
                     <div class="video-wrapper">
                         <div class="theme-heading-title">
                             <div class="subtitle shape">
-                                Our History <img class="bullet" src="./assets/img/shapes/bullet.png" alt=""> </div>
+                                Un poco de nosotros <img class="bullet" src="img/shapes/bullet.png" alt=""> </div>
                         </div>
                         <h2 class="title">
-                            PRIVATE SECURITY COMPANY </h2>
-                        <p class="video-para">Panthar has successfully completed 13 years in private security industry.
-                            Due to its
-                            professionalism, hard work and high ethical standard, Orion has been able to attain
-                            steady growth and secure its position the leading private security of the country.</p>
+                            REACCION RÁPIDA </h2>
+                        <p class="video-para">En GEE continuamente realizamos certificaciones, entrenamientos y capacitaciones de distintos metodos de rápida reaccion, simulando multiples condiciones adversas a las cuales se tiene que reaccionar con rapidez y eficacia.</p>
                         <div class="btn-wrap">
-                            <a href="about.html" class="read-btn">READ MORE <span></span></a>
+                            <!--<a href="about.html" class="read-btn">READ MORE <span></span></a>-->
                         </div>
                         <div class="video-footer-part">
-                            <h2 class="title"> <span>45 +</span> years of experience</h2>
-                            <img src="./assets/img/shapes/vf-shapes.png" alt="">
+                            <h2 class="title"> <span>4 +</span> años de experiencia</h2>
+                            <img src="img/shapes/vf-shapes.png" alt="">
                         </div>
                     </div>
                 </div>
@@ -818,9 +691,9 @@
                 <div class="col-xl-4 col-lg-12">
                     <div class="history-wrapper">
                         <div class="theme-heading-title">
-                            <h4 class="subtitle text-white">HUGE HONOR <img class="bullet"
-                                    src="./assets/img/shapes/bullet-svgrepo-com.png" alt=""> </h4>
-                            <h2 class="title text-white">GET SO MANY AWARDS IN 45 YEARS.</h2>
+                            <h4 class="subtitle text-white">ENORME HONOR <img class="bullet"
+                                    src="img/shapes/bullet-svgrepo-com.png" alt=""> </h4>
+                            <h2 class="title text-white">CONTAMOS CON MULTIPLES RECONOCIMIENTOS QUE NOS AVALAN</h2>
                         </div>
                     </div>
                 </div>
@@ -838,10 +711,8 @@
                                 </div>
                             </div>
                             <div class="awards-content">
-                                <h4 class="awards-title">2010 /best security award</h4>
-                                <p class="awards-dis">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                                    eius
-                                    tempor incididunt ut labore et dolore magna aliqua.</p>
+                                <h4 class="awards-title">Capacitacion Israelí</h4>
+                                <p class="awards-dis">Certificados por Fuerzas Especiales.</p>
                             </div>
                         </div>
                         <div class="awards-box">
@@ -856,10 +727,9 @@
                                 </div>
                             </div>
                             <div class="awards-content">
-                                <h4 class="awards-title">2013 /VISUAL operation</h4>
-                                <p class="awards-dis">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                                    eius
-                                    tempor incididunt ut labore et dolore magna aliqua.</p>
+                                <h4 class="awards-title">Permisos</h4>
+                                <p class="awards-dis">Contamos con los permisos ante SEDENA y STPS
+                                    </p>
                             </div>
                         </div>
                     </div>
@@ -876,13 +746,11 @@
                                 </div>
                             </div>
                             <div class="awards-content">
-                                <h4 class="awards-title">2018 /bank security award</h4>
-                                <p class="awards-dis">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                                    eius
-                                    tempor incididunt ut labore et dolore magna aliqua.</p>
+                                <h4 class="awards-title">Fuerzas Especiales</h4>
+                                <p class="awards-dis">Contamos con Entramientos impartido por fuerzas especiales de distintos paises.</p>
                             </div>
                         </div>
-                        <div class="awards-box border-0">
+                        <!--<div class="awards-box border-0">
                             <div class="media contact-info-box icon-box-item">
                                 <div class="media-left icon-wrap ">
                                     <div class="icon-wrap-inner">
@@ -894,12 +762,10 @@
                                 </div>
                             </div>
                             <div class="awards-content">
-                                <h4 class="awards-title">2020 /national security award</h4>
-                                <p class="awards-dis">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                                    eius
-                                    tempor incididunt ut labore et dolore magna aliqua.</p>
+                                <h4 class="awards-title"></h4>
+                                <p class="awards-dis"></p>
                             </div>
-                        </div>
+                        </div>-->
                     </div>
                 </div>
             </div>
@@ -908,15 +774,15 @@
     <!-- history area end -->
 
     <!-- team area  -->
-    <div class="team-area">
+    <!--<div class="team-area">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
                     <div class="theme-heading-title text-center">
-                        <h4 class="subtitle"><img class="bullet bullet-01" src="./assets/img/shapes/bullet-01.png"
+                        <h4 class="subtitle"><img class="bullet bullet-01" src="img/shapes/bullet-01.png"
                                 alt=""> Our
                             team
-                            <img class="bullet" src="./assets/img/shapes/bullet.png" alt="">
+                            <img class="bullet" src="img/shapes/bullet.png" alt="">
                         </h4>
                         <h2 class="title text-white">well trained panthar security</h2>
                     </div>
@@ -927,7 +793,7 @@
                     <div class="team-items-single">
                         <div class="single-team-inner style-overlay">
                             <div class="thumb">
-                                <img src="./assets/img/section-img/team/team-image-01.png" alt="">
+                                <img src="img/section-img/team/team-image-01.png" alt="">
                                 <span class="animate-1"></span>
                                 <span class="animate-2"></span>
                                 <span class="animate-3"></span>
@@ -946,7 +812,7 @@
                     <div class="team-items-single">
                         <div class="single-team-inner style-overlay">
                             <div class="thumb">
-                                <img src="./assets/img/section-img/team/team-image-02.png" alt="">
+                                <img src="img/section-img/team/team-image-02.png" alt="">
                                 <span class="animate-1"></span>
                                 <span class="animate-2"></span>
                                 <span class="animate-3"></span>
@@ -965,7 +831,7 @@
                     <div class="team-items-single">
                         <div class="single-team-inner style-overlay">
                             <div class="thumb">
-                                <img src="./assets/img/section-img/team/team-image-03.png" alt="">
+                                <img src="img/section-img/team/team-image-03.png" alt="">
                                 <span class="animate-1"></span>
                                 <span class="animate-2"></span>
                                 <span class="animate-3"></span>
@@ -984,7 +850,7 @@
                     <div class="team-items-single">
                         <div class="single-team-inner style-overlay">
                             <div class="thumb">
-                                <img src="./assets/img/section-img/team/team-image-04.png" alt="">
+                                <img src="img/section-img/team/team-image-04.png" alt="">
                                 <span class="animate-1"></span>
                                 <span class="animate-2"></span>
                                 <span class="animate-3"></span>
@@ -1003,7 +869,7 @@
                     <div class="team-items-single">
                         <div class="single-team-inner style-overlay">
                             <div class="thumb">
-                                <img src="./assets/img/section-img/team/team-image-05.png" alt="">
+                                <img src="img/section-img/team/team-image-05.png" alt="">
                                 <span class="animate-1"></span>
                                 <span class="animate-2"></span>
                                 <span class="animate-3"></span>
@@ -1022,7 +888,7 @@
                     <div class="team-items-single">
                         <div class="single-team-inner style-overlay">
                             <div class="thumb">
-                                <img src="./assets/img/section-img/team/team-image-06.png" alt="">
+                                <img src="img/section-img/team/team-image-06.png" alt="">
                                 <span class="animate-1"></span>
                                 <span class="animate-2"></span>
                                 <span class="animate-3"></span>
@@ -1041,19 +907,19 @@
                 </div>
             </div>
         </div>
-    </div>
+    </div>-->
     <!-- team area start -->
 
     <!-- solutions area  -->
-    <div class="solutions-area margin-bottom-120">
+    <!--<div class="solutions-area margin-bottom-120">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
                     <div class="theme-heading-title text-center">
-                        <h4 class="subtitle"><img class="bullet bullet-01" src="./assets/img/shapes/bullet-01.png"
+                        <h4 class="subtitle"><img class="bullet bullet-01" src="img/shapes/bullet-01.png"
                                 alt=""> Our
                             SOLUTIONS
-                            <img class="bullet" src="./assets/img/shapes/bullet.png" alt="">
+                            <img class="bullet" src="img/shapes/bullet.png" alt="">
                         </h4>
                         <h2 class="title">Protect Your Home Or Business <br>
                             With Our PANTHAR Solutions</h2>
@@ -1116,52 +982,52 @@
                 <div class="brand-active">
                     <div class="brand-item-single">
                         <div class="brand-items">
-                            <img src="./assets/img/section-img/brand/brand-01.png" alt="">
+                            <img src="img/section-img/brand/brand-01.png" alt="">
                         </div>
                     </div>
                     <div class="brand-item-single">
                         <div class="brand-items">
-                            <img src="./assets/img/section-img/brand/brand-02.png" alt="">
+                            <img src="img/section-img/brand/brand-02.png" alt="">
                         </div>
                     </div>
                     <div class="brand-item-single">
                         <div class="brand-items">
-                            <img src="./assets/img/section-img/brand/brand-03.png" alt="">
+                            <img src="img/section-img/brand/brand-03.png" alt="">
                         </div>
                     </div>
                     <div class="brand-item-single">
                         <div class="brand-items">
-                            <img src="./assets/img/section-img/brand/brand-04.png" alt="">
+                            <img src="img/section-img/brand/brand-04.png" alt="">
                         </div>
                     </div>
                     <div class="brand-item-single">
                         <div class="brand-items">
-                            <img src="./assets/img/section-img/brand/brand-05.png" alt="">
+                            <img src="img/section-img/brand/brand-05.png" alt="">
                         </div>
                     </div>
                     <div class="brand-item-single">
                         <div class="brand-items">
-                            <img src="./assets/img/section-img/brand/brand-01.png" alt="">
+                            <img src="img/section-img/brand/brand-01.png" alt="">
                         </div>
                     </div>
                     <div class="brand-item-single">
                         <div class="brand-items">
-                            <img src="./assets/img/section-img/brand/brand-02.png" alt="">
+                            <img src="img/section-img/brand/brand-02.png" alt="">
                         </div>
                     </div>
                     <div class="brand-item-single">
                         <div class="brand-items">
-                            <img src="./assets/img/section-img/brand/brand-03.png" alt="">
+                            <img src="img/section-img/brand/brand-03.png" alt="">
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
+    </div>-->
     <!-- solutions area  end-->
 
     <!-- testimonial area  -->
-    <div class="testimonial-area">
+    <!--<div class="testimonial-area">
         <div class="container">
             <div class="row no-gutters align-items-center justify-content-center">
                 <div class="col-lg-4">
@@ -1169,7 +1035,7 @@
                         <div class="theme-heading-title">
                             <h4 class="subtitle">
                                 Testimonial
-                                <img class="bullet" src="./assets/img/shapes/bullet.png" alt="">
+                                <img class="bullet" src="img/shapes/bullet.png" alt="">
                             </h4>
                             <h2 class="title">loves from special client's</h2>
                             <p class="test-para">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eius
@@ -1191,7 +1057,7 @@
                                             <i class="fa fa-star"></i>
                                         </div>
                                         <div class="message-icon">
-                                            <img src="./assets/img/section-img/testimonial/message.png" alt="">
+                                            <img src="img/section-img/testimonial/message.png" alt="">
                                         </div>
                                     </div>
                                     <div class="test-body">
@@ -1204,7 +1070,7 @@
                                     </div>
                                     <div class="test-footer">
                                         <div class="test-author">
-                                            <img src="./assets/img/section-img/testimonial/author-01.png" alt="">
+                                            <img src="img/section-img/testimonial/author-01.png" alt="">
                                         </div>
                                         <div class="test-name before-remove">
                                             <h4 class="test-name">Morgaan Smith</h4>
@@ -1223,7 +1089,7 @@
                                             <i class="fa fa-star"></i>
                                         </div>
                                         <div class="message-icon">
-                                            <img src="./assets/img/section-img/testimonial/message.png" alt="">
+                                            <img src="img/section-img/testimonial/message.png" alt="">
                                         </div>
                                     </div>
                                     <div class="test-body">
@@ -1236,7 +1102,7 @@
                                     </div>
                                     <div class="test-footer">
                                         <div class="test-author"> 
-                                            <img src="./assets/img/section-img/testimonial/author-02.png" alt="">
+                                            <img src="img/section-img/testimonial/author-02.png" alt="">
                                         </div>
                                         <div class="test-name before-remove">
                                             <h4 class="test-name">DINMITRO PANTU</h4>
@@ -1255,7 +1121,7 @@
                                             <i class="fa fa-star"></i>
                                         </div>
                                         <div class="message-icon">
-                                            <img src="./assets/img/section-img/testimonial/message.png" alt="">
+                                            <img src="img/section-img/testimonial/message.png" alt="">
                                         </div>
                                     </div>
                                     <div class="test-body">
@@ -1268,7 +1134,7 @@
                                     </div>
                                     <div class="test-footer">
                                         <div class="test-author">
-                                            <img src="./assets/img/section-img/testimonial/author-01.png" alt="">
+                                            <img src="img/section-img/testimonial/author-01.png" alt="">
                                         </div>
                                         <div class="test-name before-remove">
                                             <h4 class="test-name">Morgaan Smith</h4>
@@ -1287,7 +1153,7 @@
                                             <i class="fa fa-star"></i>
                                         </div>
                                         <div class="message-icon">
-                                            <img src="./assets/img/section-img/testimonial/message.png" alt="">
+                                            <img src="img/section-img/testimonial/message.png" alt="">
                                         </div>
                                     </div>
                                     <div class="test-body">
@@ -1300,7 +1166,7 @@
                                     </div>
                                     <div class="test-footer">
                                         <div class="test-author">
-                                            <img src="./assets/img/section-img/testimonial/author-01.png" alt="">
+                                            <img src="img/section-img/testimonial/author-01.png" alt="">
                                         </div>
                                         <div class="test-name before-remove">
                                             <h4 class="test-name">DIRASON JUKKI</h4>
@@ -1320,232 +1186,14 @@
                 </div>
             </div>
         </div>
-    </div>
+    </div>-->
     <!-- testimonial area  end-->
 
-    <!-- blog area  -->
-    <div class="blog-area">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12">
-                    <div class="theme-heading-title text-center">
-                        <h4 class="subtitle"><img class="bullet bullet-01" src="./assets/img/shapes/bullet-01.png"
-                                alt=""> News Room
-                            <img class="bullet" src="./assets/img/shapes/bullet.png" alt="">
-                        </h4>
-                        <h2 class="title">latest blog from panthar</h2>
-                    </div>
-                </div>
-            </div>
-            <div class="blog-list-item-wrap">
-                <div class="row justify-content-center mbs-left">
-                    <div class="col-lg-4 col-md-6">
-                        <div class="single-blog-item-inner">
-                            <div class="details pt-0 pb-4">
-                                <ul class="author-meta">
-                                    <li class="date w-100">
-                                        <span class="posted-on"> <a href="#" rel="bookmark"><span
-                                                    class="entry-date published updated">FEBRUARY 7,
-                                                    2022</span></a></span>
-                                    </li>
-                                </ul>
-                                <h4 class="title"><a href="blog-single.html">Safety Your Home to Failure</a></h4>
-                            </div>
-                            <div class="thumb">
-                                <img src="./assets/img/section-img/blog/blog-01.png" alt="">
-                            </div>
-                            <div class="details">
-                                <ul class="author-meta">
-                                    <li class="author">
-                                        <img src="img/section-img/blog/user.png" alt="">
-                                        <span class="byline"> <a class="post-by url fn n" href="#"> By
-                                                panthar</a></span> </li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-
-
-                    <div class="col-lg-4 col-md-6">
-                        <div class="single-blog-item-inner">
-                            <div class="details pt-0 pb-4">
-                                <ul class="author-meta">
-                                    <li class="date w-100">
-                                        <span class="posted-on"> <a href="#" rel="bookmark"><span
-                                                    class="entry-date published updated">December 8,
-                                                    2022</span></a></span>
-                                    </li>
-                                </ul>
-                                <h4 class="title"><a href="blog-single.html">The
-                                        BBC Series Bodyguard</a></h4>
-                            </div>
-                            <div class="thumb">
-                                <img src="./assets/img/section-img/blog/blog-02.png" alt="">
-                            </div>
-                            <div class="details">
-                                <ul class="author-meta">
-                                    <li class="author">
-                                        <img src="./assets/img/section-img/blog/user.png" alt="">
-                                        <span class="byline"> <a class="post-by url fn n" href="#"> By
-                                                panthar</a></span> </li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-
-
-                    <div class="col-lg-4 col-md-6">
-                        <div class="single-blog-item-inner">
-                            <div class="details pt-0 pb-4">
-                                <ul class="author-meta">
-                                    <li class="date w-100">
-                                        <span class="posted-on"> <a href="#" rel="bookmark"><span
-                                                    class="entry-date published updated">August 9,
-                                                    2022</span></a></span>
-                                    </li>
-                                </ul>
-                                <h4 class="title"><a href="blog-single.html">How safe is the
-                                        Caribbean?</a></h4>
-                            </div>
-                            <div class="thumb">
-                                <img src="./assets/img/section-img/blog/blog-03.png" alt="">
-                            </div>
-                            <div class="details">
-                                <ul class="author-meta">
-                                    <li class="author">
-                                        <img src="./assets/img/section-img/blog/user.png" alt="">
-                                        <span class="byline"> <a class="post-by url fn n" href="#"> By
-                                                panthar</a></span> </li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- blog area  end-->
+    
 
     <!-- footer area start -->
     <footer class="footer-area">
-        <div class="container">
-            <div class="footer-top padding-top-85 padding-bottom-50">
-                <div class="subscribe-wrapper">
-                    <div class="row align-items-center">
-                        <div class="col-lg-4">
-                            <a href="index.html" class="footer-logo"> <img src="img/gee_logo-white.png"
-                                    alt="footer logo"></a>
-                        </div>
-                        <div class="col-lg-8">
-                            <div class="subscribe-box">
-                                <form action="#">
-                                    <input type="text" placeholder="enter your email address">
-                                    <button class="btn-panthar btn-border-base footer-subscribe-btn">
-                                        <span class="top_left"></span>
-                                        <span class="top_right"></span>
-                                        GET ALERT <i class="far fa-paper-plane"></i>
-                                        <span class="bottom_left"></span>
-                                        <span class="bottom_right"></span>
-                                    </button>
-                                </form>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-lg-3 col-md-6 col-sm-6">
-                        <div id="panthar_about_me_widget-2" class="widget footer-widget panthar-widget-about-me">
-                            <div class="footer-widget widget">
-                                <div class="about_me_widget style-01">
-                                    <h4 class="widget-headline">about us</h4>
-                                    <p> Our team includes doormen, bodyguards, and parking lot patrol officers more
-                                        than
-                                        15 years of combined our experience.</p>
-                                    <ul class="widget-list-items">
-                                        <li>
-                                            <div class="icon">
-                                                <a href="#">
-                                                    <i class="fab fa-instagram"></i>
-                                                </a>
-                                            </div>
-                                        </li>
-                                        <li>
-                                            <div class="icon">
-                                                <a href="#">
-                                                    <i class="fab fa-twitter"></i>
-                                                </a>
-                                            </div>
-                                        </li>
-                                        <li>
-                                            <div class="icon">
-                                                <a href="#">
-                                                    <i class="fab fa-pinterest-p"></i>
-                                                </a>
-                                            </div>
-                                        </li>
-                                        <li>
-                                            <div class="icon">
-                                                <a href="#">
-                                                    <i class="fab fa-linkedin-in"></i>
-                                                </a>
-                                            </div>
-                                        </li>
-                                    </ul>
-                                </div>
-                            </div>
-
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-md-6 col-sm-6">
-                        <div class="footer-widget widget widget_nav_menu">
-                            <h4 class="widget-headline">OUR COMPANY</h4>
-                            <ul>
-                                <li><a href="index.html">Home</a></li>
-                                <li><a href="about.html">About Us</a></li>
-                                <li><a href="service.html">Service</a></li>
-                                <li><a href="about.html">Our Campaign</a></li>
-                                <li><a href="team.html">Our Volunteer</a></li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-md-6 col-sm-6">
-                        <div class="footer-widget widget widget_nav_menu">
-                            <h4 class="widget-headline">HELP</h4>
-                            <ul>
-                                <li><a href="service.html">Event Security</a></li>
-                                <li><a href="service.html">Bank Security</a></li>
-                                <li><a href="service.html">Office Security</a></li>
-                                <li><a href="service.html">Office Security</a></li>
-                                <li><a href="service.html">Vehicle Escort</a></li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-md-6 col-sm-6">
-                        <div class="footer-widget widget widget_nav_menu">
-                            <h4 class="widget-headline">SERVICES</h4>
-                            <ul>
-                                <li><a href="service.html">Knowledge base</a></li>
-                                <li><a href="service.html">Security resources</a></li>
-                                <li><a href="faq.html">Terms & Conditions</a></li>
-                                <li><a href="gallary.html">Gallery</a></li>
-                                <li><a href="contact.html">Contact</a></li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="copyright-area">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-12">
-                        <div class="copyright-area-inner">
-                            <p>Copyright 2024 GEE.<span></span> </p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
+        <?php include("include/footer.php"); ?>
     </footer>
     <!-- footer area end -->
 
