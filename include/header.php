@@ -50,7 +50,7 @@
                             <a href="index.php">Inicio</a>
                         </li>
                         <!--<li><a href="about.html"><span>Sobre GEE </span> </a></li>-->
-                        <li><a href="#"><span>Galeria</span></a></li>
+                        <li><a href="galeria.php"><span>Galeria</span></a></li>
                         
                         
                         <li>
