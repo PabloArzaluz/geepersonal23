@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>Panthar HTML-5 Template</title>
+    <title>GALERIA -GEE - Grupo Elite de Escoltas</title>
     <!-- favicon -->
     <link rel="icon" href="img/favicon.png" sizes="20x20" type="image/png" />
     <!-- animate -->
@@ -58,7 +58,7 @@
     <div class="breadcrumb-area margin-bottom-120">
         <div class="container custom-container">
             <div class="breadcrumb-inner">
-                <h2 class="br-inner-title">GALLERY</h2>
+                <h2 class="br-inner-title">GALERIA</h2>
                 <ul class="breadcrumb-menu">
                     <li><img class="bullet-04" src="img/section-img/breadcrumb/home.svg" alt=""><a
                             href="index.php">INICIO</a></li>
@@ -89,53 +89,34 @@
                                         Todo </span>
                                 </span>
                             </li>
-                            <li data-filter=".corporate" class="">
+                            <li data-filter=".entrenamientos" class="">
                                 <span class="tag-wrap">
                                     <span class="tag">
                                         <span class="style-animate-dot-wrap">
                                             <span class="style-animate-dot"></span>
                                         </span>
-                                        Corporate
+                                        Entrenamientos
                                     </span>
                                 </span>
                             </li>
-                            <li data-filter=".office" class="">
+                            <li data-filter=".certificaciones" class="">
                                 <span class="tag-wrap">
                                     <span class="tag">
                                         <span class="style-animate-dot-wrap">
                                             <span class="style-animate-dot"></span>
                                         </span>
-                                        Office
+                                        Certificaciones
                                     </span>
                                 </span>
                             </li>
-                            <li data-filter=".bank" class="">
+                            
+                            <li data-filter=".guardaespaldas">
                                 <span class="tag-wrap">
                                     <span class="tag">
                                         <span class="style-animate-dot-wrap">
                                             <span class="style-animate-dot"></span>
                                         </span>
-                                        bank
-                                    </span>
-                                </span>
-                            </li>
-                            <li data-filter=".event" class="">
-                                <span class="tag-wrap">
-                                    <span class="tag">
-                                        <span class="style-animate-dot-wrap">
-                                            <span class="style-animate-dot"></span>
-                                        </span>
-                                        event
-                                    </span>
-                                </span>
-                            </li>
-                            <li data-filter=".bodyguard">
-                                <span class="tag-wrap">
-                                    <span class="tag">
-                                        <span class="style-animate-dot-wrap">
-                                            <span class="style-animate-dot"></span>
-                                        </span>
-                                        bodyguard
+                                        guardaespaldas
                                     </span>
                                 </span>
                             </li>
@@ -146,66 +127,66 @@
         </div>
         <div class="gallery-item-wrap">
             <div class="item gallery-single-item-1 bodyguard event">
-                <div class="thumb" style="background-image: url('img/section-img/gallary/gallary-01.png');">
+                <div class="thumb" style="background-image: url('img/galeria/a-2_t.jpg');">
                 </div>
                 <a class="popup-btn image-popup-vertical-fit"
-                    href="https://themebuzs.com/wp/panthar/wp-content/uploads/2022/01/high-angle-safety-team-work.png">
+                    href="img/galeria/a-2_f.jpg">
                     <i class="icomoon-plus-sign"></i>
                 </a>
             </div>
-            <div class="item gallery-single-item-2 bodyguard event">
-                <div class="thumb" style="background-image: url('img/section-img/gallary/gallary-02.png');">
+            <div class="item gallery-single-item-2 certificaciones">
+                <div class="thumb" style="background-image: url('img/galeria/a-1.jpg');">
                 </div>
                 <a class="popup-btn image-popup-vertical-fit"
-                    href="https://themebuzs.com/wp/panthar/wp-content/uploads/2022/01/side-view-security-guards-specialist.png">
+                    href="img/galeria/a-1.jpg">
                     <i class="icomoon-plus-sign"></i>
                 </a>
             </div>
             <div class="item gallery-single-item-3 bank corporate">
-                <div class="thumb" style="background-image: url('img/section-img/gallary/gallary-03.png');">
+                <div class="thumb" style="background-image: url('img/galeria/a-3_t.jpg');">
                 </div>
                 <a class="popup-btn image-popup-vertical-fit"
-                    href="https://themebuzs.com/wp/panthar/wp-content/uploads/2022/01/police-officer-making-stop-gesture.png">
+                    href="img/galeria/a-3_f.jpg">
                     <i class="icomoon-plus-sign"></i>
                 </a>
             </div>
             <div class="item gallery-single-item-4 bodyguard corporate">
-                <div class="thumb" style="background-image: url('img/section-img/gallary/gallary-04.png');">
+                <div class="thumb" style="background-image: url('img/galeria/a-4_t.jpg');">
                 </div>
                 <a class="popup-btn image-popup-vertical-fit"
-                    href="https://themebuzs.com/wp/panthar/wp-content/uploads/2022/01/security-woman-stopping-photographers-1.png">
+                    href="img/galeria/a-4_f.jpg">
                     <i class="icomoon-plus-sign"></i>
                 </a>
             </div>
             <div class="item gallery-single-item-5 bank office">
-                <div class="thumb" style="background-image: url('img/section-img/gallary/gallary-05.png');">
+                <div class="thumb" style="background-image: url('img/galeria/a-5_f.jpg');">
                 </div>
                 <a class="popup-btn image-popup-vertical-fit"
-                    href="https://themebuzs.com/wp/panthar/wp-content/uploads/2022/01/cops-black-uniform-body-armor.png">
+                    href="img/galeria/a-5_f.jpg">
                     <i class="icomoon-plus-sign"></i>
                 </a>
             </div>
             <div class="item gallery-single-item-6 bodyguard event office">
-                <div class="thumb" style="background-image: url('img/section-img/gallary/gallary-06.png');">
+                <div class="thumb" style="background-image: url('img/galeria/a-6_t.jpg');">
                 </div>
                 <a class="popup-btn image-popup-vertical-fit"
-                    href="https://themebuzs.com/wp/panthar/wp-content/uploads/2022/01/serious-female-police-officer-is-posing-camera-against-black-background-with-red-blue.png">
+                    href="img/galeria/a-6_f.jpg">
                     <i class="icomoon-plus-sign"></i>
                 </a>
             </div>
             <div class="item gallery-single-item-7 bodyguard corporate office">
-                <div class="thumb" style="background-image: url('img/section-img/gallary/gallary-07.png');">
+                <div class="thumb" style="background-image: url('img/galeria/a-7_t.jpg');">
                 </div>
                 <a class="popup-btn image-popup-vertical-fit"
-                    href="https://themebuzs.com/wp/panthar/wp-content/uploads/2022/01/two-male-police-officers-uniform-sunglasses-standing-back-back-policemen-protect-law-cops-work-city-street-order-justice-control.png">
+                    href="img/galeria/a-7_f.jpg">
                     <i class="icomoon-plus-sign"></i>
                 </a>
             </div>
             <div class="item gallery-single-item-8 bank bodyguard event">
-                <div class="thumb" style="background-image: url('img/section-img/gallary/gallary-08.png');">
+                <div class="thumb" style="background-image: url('img/galeria/a-8_t.jpg');">
                 </div>
                 <a class="popup-btn image-popup-vertical-fit"
-                    href="https://themebuzs.com/wp/panthar/wp-content/uploads/2022/01/elegant-woman-medical-face-mask-passing-through-metal-detector-scanner-airport-terminal.png">
+                    href="img/galeria/a-8_f.jpg">
                     <i class="icomoon-plus-sign"></i>
                 </a>
             </div>
@@ -217,41 +198,18 @@
         <div class="container">
             <div class="theme-heading-title team-page text-center">
                 <h3 class="title">VIDEO</h3>
-                <p>Integer dis ads se purus sollicitudin dapibus et vivamus pharetra sit integer dictum in dise
-                    natoque
-                    an mus quis in. Facilisis inceptos nec, potenti nostra aenean lacinia varius semper ant nullam
-                    nulla
-                    primis placerat facilisis.</p>
+                <p>Algunos de nuestro contenido multimedia, para conocer mas te invitamos a que visites nuestras redes sociales, donde constantemente estamos subiendo nuevo material.</p>
             </div>
             <div class="video-bg">
                 <div class="hover">
-                    <a href="https://www.youtube.com/watch?v=AmDH8_bTRo8"
+                    <a href="https://www.youtube.com/watch?v=tyvRF4Sg0QQ"
                         class="video-play-btn-02 video-popup mfp-iframe"><i aria-hidden="true"
                             class="fas fa-play"></i></a>
                 </div>
             </div>
         </div>
     </div>
-    <!-- video area  -->
-    <div class="gallary-area margin-bottom-120">
-        <div class="container">
-            <div class="theme-heading-title team-page text-center">
-                <h3 class="title">VIDEO</h3>
-                <p>Integer dis ads se purus sollicitudin dapibus et vivamus pharetra sit integer dictum in dise
-                    natoque
-                    an mus quis in. Facilisis inceptos nec, potenti nostra aenean lacinia varius semper ant nullam
-                    nulla
-                    primis placerat facilisis.</p>
-            </div>
-            <div class="video-bg">
-                <div class="hover">
-                    <a href="https://www.youtube.com/watch?v=AmDH8_bTRo8"
-                        class="video-play-btn-02 video-popup mfp-iframe"><i aria-hidden="true"
-                            class="fas fa-play"></i></a>
-                </div>
-            </div>
-        </div>
-    </div>
+    
 
     <!-- brand area  -->
     <!--<div class="brand-two margin-bottom-120">

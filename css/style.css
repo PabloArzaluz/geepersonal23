@@ -7680,7 +7680,7 @@ blockquote:not(.has-light-gray-color):not(.has-very-dark-gray-color):not(.is-sty
 }
 
 .video-bg {
-  background-image: url("../img/section-img/video/video-bg-gallary.png");
+  background-image: url("../img/video-bg.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   padding: 230px 0;

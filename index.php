@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>CONTACTO - GEE - Grupo Elite de Escoltas</title>
+    <title>GEE - Grupo Elite de Escoltas</title>
     <!-- favicon -->
     <link rel="icon" href="img/favicon.png" sizes="20x20" type="image/png" />
     <!-- animate -->
@@ -201,7 +201,7 @@
                     <div class="service-single-item-list">
                         <div class="service-single-item-2">
                             <div class="thumb">
-                                <img src="img/secciones/eventos.jpg" alt="">
+                                <img src="img/secciones/certificaciones-entrenamientos.jpg" alt="">
                                 <div class="animate-icon">
                                     <svg xmlns="http://www.w3.org/2000/svg" width="43.888" height="43.888"
                                         viewBox="0 0 43.888 43.888">
@@ -267,7 +267,7 @@
                                     </svg> </div>
                             </div>
                             <div class="details">
-                                <h4 class="title"><a href="service.html">Capacitaciones</a></h4>
+                                <h4 class="title"><a href="service.html">Capacitaciones Certificado</a></h4>
                                 <a class="read-btn" href="service.html"><i class="fa fa-arrow-right"></i></a>
                             </div>
                         </div>
@@ -432,7 +432,7 @@
                     <div class="service-single-item-list">
                         <div class="service-single-item-2">
                             <div class="thumb">
-                                <img src="img/secciones/servicio-entrenamientos.jpg" alt="">
+                                <img src="img/secciones/servicio-entrenamientos2.jpg" alt="">
                                 <div class="animate-icon">
                                     <svg xmlns="http://www.w3.org/2000/svg" width="43.888" height="43.888"
                                         viewBox="0 0 43.888 43.888">
@@ -499,7 +499,7 @@
                                     </svg> </div>
                             </div>
                             <div class="details">
-                                <h4 class="title"><a href="service.html">Entrenamientos</a></h4>
+                                <h4 class="title"><a href="service.html">Asesoria de Seguridad Personal</a></h4>
                                 <a class="read-btn" href="service.html"><i class="fa fa-arrow-right"></i></a>
                             </div>
                         </div>

@@ -36,7 +36,6 @@
 </head>
 
 <body>
-
     <div class="body-overlay" id="body-overlay"></div>
     <div class="search-popup" id="search-popup">
         <form action="https://themebuzs.com/wp/panthar/" class="search-form">
